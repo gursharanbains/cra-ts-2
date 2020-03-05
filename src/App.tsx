@@ -9,6 +9,7 @@ function App() {
   useEffect(() => {
     console.log(loading);
   }, []);
+
   return (
     <div className="App">
       <header className="App-header">
