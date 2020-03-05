@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
 const arr = [1, 2, 3];
 
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     console.log(loading);
-  }, []);
+  }, [loading]);
 
   return (
     <div className="App">
