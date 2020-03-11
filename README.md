@@ -1,17 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Linting
-  - This is a test project to show a sample linting + formatting configuration. The .eslintrc.js extends CRA's default linting and includes:
-  Airbnb typescript config
-  Jest recommended config + style rules
-  @testing-library/react recommended config
-  Prettier integration and recommended config
+ This is a test project to show a sample linting + formatting configuration. The .eslintrc.js extends CRA's default linting and includes:
+  - Airbnb typescript config
+  - Jest recommended config + style rules
+  - @testing-library/react recommended config
+  - Prettier integration and recommended config
    
 ## Git Hooks
-  - Runs prettier and lint commands as a precommit hook (using husky and lint-staged). Will prevent committing of unlinted code.
+ Runs prettier and lint commands as a precommit hook (using husky and lint-staged). Will prevent committing of unlinted code.
   
 ## Config
-  If you do not want linting errors to stop you from building the application (e.g. during local development), simply go to .env and set EXTEND_ESLINT=false. Now your custom lint rules will only show errors/warnings in the IDE, not in the browser.
+ If you do not want linting errors to stop you from building the application (e.g. during local development), simply go to .env and set EXTEND_ESLINT=false. Now your custom lint rules will only show errors/warnings in the IDE, not in the browser.
 
 ## Available Scripts
 
@@ -33,9 +33,9 @@ Note: this project is also configured to run linting before the test using the '
 
 ### `yarn lint`
 
-Runs our ESLint on all .js, .jsx, .ts, and .tsx files (more file types to be added as needed).
-Run 'yarn lint --fix' to automatically fix linting issues.
-As Prettier has been configured as an ESLint rule, it is recommended to turn on 'editor.formatOnSave' rule in your VSCode
+- Runs our ESLint on all .js, .jsx, .ts, and .tsx files (more file types to be added as needed).
+- Run 'yarn lint --fix' to automatically fix linting issues.
+- As Prettier has been configured as an ESLint rule, it is recommended to turn on 'editor.formatOnSave' rule in your VSCode
 settings to avoid unnecessary lint warnings.
 
 ### `yarn docz:dev`
