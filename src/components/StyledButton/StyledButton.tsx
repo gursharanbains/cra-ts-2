@@ -1,4 +1,5 @@
 import * as React from 'react';
+
 const styles = require('./StyledButton.module.scss');
 
 export interface StyledButtonProps {
@@ -7,12 +8,14 @@ export interface StyledButtonProps {
 }
 
 const StyledButton: React.FC<StyledButtonProps> = props => {
-  const { primary, disabled } = props;
+  const { primary, disabled, children } = props;
 
   return (
     <button
+      type="button"
       className={`${primary ? styles.primary : styles.secondary} 
       ${
+        /* eslint-disable no-nested-ternary */
         disabled
           ? primary
             ? styles['primary-disabled']
@@ -20,7 +23,7 @@ const StyledButton: React.FC<StyledButtonProps> = props => {
           : ''
       }`}
     >
-      {props.children}
+      {children}
     </button>
   );
 };

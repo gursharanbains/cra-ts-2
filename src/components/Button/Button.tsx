@@ -11,7 +11,7 @@ const Button: React.FC<ButtonProps> = () => {
   const [counter, setCounter] = React.useState(0);
   return (
     <>
-      <button onClick={() => setCounter(counter => counter + 1)}>
+      <button type="button" onClick={() => setCounter(c => c + 1)}>
         Increase
       </button>
       <p>{counter}</p>

@@ -1,7 +1,7 @@
 import React from 'react';
+import StyledButton from 'components/StyledButton/StyledButton';
 import logo from './logo.svg';
 import './App.css';
-import StyledButton from 'components/StyledButton/StyledButton';
 
 function App() {
   // const [loading, setLoading] = useState(false);
