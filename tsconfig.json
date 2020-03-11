@@ -21,6 +21,6 @@
     "jsx": "react"
   },
   "include": [
-    "src"
+    "src", "gatsby-config.custom.js"
   ]
 }

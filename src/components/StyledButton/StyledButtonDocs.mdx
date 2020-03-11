@@ -1,0 +1,22 @@
+---
+name: StyledButton
+---
+import { Props } from 'docz'
+import { Playground } from 'docz'
+import Button from './StyledButton'
+
+# StyledButton
+
+Hello, I'm still a mdx file, but now I have a button component !
+
+<Button onClick={() => { alert("You clicked me"); }}>Click me</Button>
+
+### Button Props
+<Props of={Button} />
+
+## Basic usage
+
+<Playground>
+  <Button>Click me</Button>
+  <Button kind="secondary">Click me</Button>
+</Playground>
