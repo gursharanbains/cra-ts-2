@@ -1,6 +1,8 @@
 module.exports = {
   extends: [
+    // TODO: add eslint-promise-plugin??
     'airbnb-typescript',
+    'airbnb/hooks',
     'react-app',
     'plugin:jest/recommended',
     'plugin:jest/style',
@@ -14,9 +16,8 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'error',
     '@typescript-eslint/no-unused-vars': 'warn',
 
-    // disable airbnb rules
+    // disable unnecessary airbnb rules
     "react/prop-types": "off"
-
   },
   settings: {
     "import/resolver": {
