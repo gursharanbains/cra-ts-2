@@ -14,7 +14,7 @@
     "docz": "^2.2.0",
     "eslint-plugin-testing-library": "^2.2.3",
     "gatsby-plugin-sass": "^2.1.29",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prettier": "^1.19.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
